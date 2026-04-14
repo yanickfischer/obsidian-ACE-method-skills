@@ -68,6 +68,23 @@ These skills work within this structure, automatically placing notes in the corr
 
 ---
 
+## 🧠 CLAUDE.md — The Routing Document
+
+The included [`CLAUDE.md`](CLAUDE.md) is the central configuration file that gives Claude Code a complete understanding of your Ideaverse vault. Place it in the root of your Obsidian vault and it will serve as the instruction layer between Claude and your knowledge system.
+
+**What it defines:**
+- **Vault architecture** — The full ACE folder structure and what goes where
+- **Navigation system** — How to use Maps of Content (MOCs) as the primary reference layer
+- **Frontmatter conventions** — Required properties (`up`, `in`, `related`, `created`, `tags`, etc.) and their purpose
+- **Templates** — Available note templates and their property presets
+- **Study system** — A dedicated pipeline for managing weekly lecture notes (optional)
+- **Skill routing** — When and how to trigger each skill automatically
+- **Rules** — The 11 core rules for working within the vault
+
+This file is what makes the skills context-aware. Without it, the skills still work but won't know your specific vault structure, existing MOCs, or organizational conventions.
+
+---
+
 ## 🛠️ Skills Overview
 
 ### 1. `/web-capture`
